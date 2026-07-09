@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply border-secondary;
+}
+
+body {
+  @apply bg-background text-foreground;
+}
+
+input,
+select,
+textarea {
+  @apply bg-secondary text-foreground border border-secondary rounded px-3 py-2 focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent;
+}
+
+button {
+  @apply transition-colors duration-200;
+}
+
+.btn-primary {
+  @apply bg-primary text-white hover:bg-blue-600 px-4 py-2 rounded font-medium;
+}
+
+.btn-secondary {
+  @apply bg-secondary text-foreground hover:bg-opacity-80 px-4 py-2 rounded font-medium border border-secondary;
+}
+
+.btn-danger {
+  @apply bg-destructive text-white hover:bg-red-600 px-4 py-2 rounded font-medium;
+}
+
+.card {
+  @apply bg-secondary border border-secondary rounded-lg p-4;
+}
+
+.divider {
+  @apply border-t border-secondary;
+}
