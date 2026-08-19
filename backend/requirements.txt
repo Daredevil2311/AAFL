@@ -1,0 +1,8 @@
+# requirements.txt
+
+# (copied from backend repo)
+
+flask
+numpy
+scikit-learn
+pandas
